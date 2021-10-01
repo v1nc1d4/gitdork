@@ -79,3 +79,13 @@ filename:.ftpconfig
 filename:.remote-sync.json
 filename:sftp.json path:.vscode
 filename:WebServers.xml
+token
+secret
+password
+vulnerable
+random
+hash
+MD5
+SHA-1
+SHA-2
+HMAC
