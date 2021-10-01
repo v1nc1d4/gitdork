@@ -29,6 +29,6 @@ int main()
 	var25 = 'z';
 
 
-	printf("%c%c%c%c%c%c%c", var1, var14, var1, var14, var4, var8, var21); // 1 14 1 14 4 8 21
+	printf("%c%c%c%c%c%c%c", var1, var14, var1, var14, var4, var8, var21); // 1 14 1 14 4 8 21=
 	return 0;
 }
