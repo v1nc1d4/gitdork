@@ -1,0 +1,12 @@
+API and key. (Get some more endpoints and find API keys.)
+token
+secret
+TODO
+password
+vulnerable
+http:// & https://
+CSRF
+random
+hash
+MD5, SHA-1, SHA-2, etc.
+HMAC
