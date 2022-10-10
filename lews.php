@@ -28,11 +28,11 @@ $result = curl_exec ($ch1);
 preg_match_all("/style=\"white-space:nowrap\"><c(.*?)\//", $result, $a);
 foreach($a[1] as $sitesn){
 $sites = explode("ite class=\"_Rm\">", $sitesn);
-$sulton = parse_url("http://$sites[1]", PHP_URL_HOST);
-if(!in_array($sulton,$list)){
-	$list[] = $sulton;
-	echo "$sulton\n";
-	save("$sulton<br>");
+
+
+	
+
+	
 	
 
 }
