@@ -34,10 +34,7 @@ def dorker(dork,pages):
         print "\t\t" + build
     final1 = list(set(comp))
     l = "bing_search_" + str(len(final1)) + ".txt"
-    foo = open(l,"w")
-    for ss in final1:
-        foo.write(ss + "\n")
-    foo.close()
+
     print "[OK] file saved as " + l
 print 'Type dork below:'
 dr = raw_input('')
