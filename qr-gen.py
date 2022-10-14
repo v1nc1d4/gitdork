@@ -16,3 +16,10 @@ url.svg("QR.svg", scale = 8)
 
 # Create and save the png file naming "QR.png"
 url.png('QR.png', scale = 6)
+url = pyqrcode.create(s)
+
+# Create and save the svg file naming "QR.svg"
+url.svg("QR.svg", scale = 8)
+
+# Create and save the png file naming "QR.png"
+url.png('QR.png', scale = 6)
