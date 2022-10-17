@@ -39,10 +39,6 @@ def key_stream(text,s):
             status = 0
     return ks
 
-def encrypt(text,k):
-    encrypted_txt = ''
-    hex_enc_txt = ''
-    for i in range(0,len(text)):
         xored = (ord(text[i])) ^ (k[i])
         encrypted_txt +=  chr(xored)
         hex_enc_txt += hex(xored)[2:] + ' '
