@@ -25,7 +25,6 @@ if(version_compare(phpversion(), '4.1.0') == -1)
  $_GET    = &$HTTP_GET_VARS;
  $_SERVER = &$HTTP_SERVER_VARS;
  }
-if (@get_magic_quotes_gpc())
  {
  foreach ($_POST as $k=>$v)
   {
