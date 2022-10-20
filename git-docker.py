@@ -110,16 +110,7 @@ else:
     threads = 1
 
 # if not args.query and not args.queryfile and not args.organization and not args.users and not args.userfile:
-#     parser.error('query or organization missing or users missing')
-
-if args.dorks:
-    fp = open(args.dorks, 'r')
-    for line in fp:
-        dorks_list.append(line.strip())
-
-if args.keyword:
-    keywords_list = args.keyword.split(',')
-
+#     parser.error('query or organization missing or users missin
 if not args.dorks and not args.keyword:
     parser.error('dorks file or keyword is missing')
 
